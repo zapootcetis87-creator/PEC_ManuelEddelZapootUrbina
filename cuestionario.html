@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Redes de Bienestar: Tejiendo por la salud mental y el exito escolar
+        </h1><br>
+        <h1>Manuel Zapoot</h1>
+        <nav>
+            <ul>
+                <li class="conceptos"><a href="index.html">Conceptos</a></li>
+                <li class="riesgos"><a href="riesgos.html">Riesgos</a></li>
+                <li class="ayuda"><a href="ayuda.html">Ayuda</a></li>
+                <li class="cuestionario"><a href="cuestionario.html">Encuesta</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>
+            Este cuestionario tiene como objetivo conocer cómo se sienten los estudiantes y cómo diferentes situaciones pueden influir en su vida escolar. Tus respuestas serán utilizadas únicamente con fines informativos.
+        </p>
+        <form>
+            <h2>Datis generales</h2>
+            <label for="nombre">¿Cuál es tu nombre?</label>
+            <input type="text" id="nombre">
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" min="10" max="30">
+            <br><br>
+            <h2>Bienestar emocional</h2>
+            <p>1. ¿Con qué frecuencia te sientes estresado por cuestiones escolares?</p>
+            <input type="radio" name="estres" value="nunca">
+            <label>Nunca</label><br>
+            <input type="radio" name="estres" value="poco">
+            <label>Pocas veces</label><br>
+            <input type="radio" name="estres" value="frecuente">
+            <label>Frecuentemente</label><br>
+            <input type="radio" name="estres" value="siempre">
+            <label>Casi siempre</label>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #9DA5C7;
+}
+
+/*Header*/
+
+header, nav{
+    background-color: #7D5BAB;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+/*Emojis*/
+
+.conceptos ::before{
+    content: "🪐";
+}
+
+.riesgos ::before{
+    content: "☄️";
+}
+
+.ayuda ::before{
+    content: "🛸";
+}
+
+.cuestionario ::before{
+    content: "🔭";
+}
+
+nav ul a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+/*Main*/
+main{
+    font-size: 18px;
+    float: left;
+    width: 70%;
+    padding: 8px;
+}
+
+main section{
+    padding: 8px;
+}
+
+strong{
+    color: #E3D15F;
+}
+
+/*aside*/
+aside{
+    font-size: 18px;
+    float: right;
+    width: 30%;
+    padding: 8px;
+    background-color: #8288A8;
+}
+
+main section ul{
+    padding-left: 15px;
+}
+
+#desplegable{
+    color: #0F3D66;
+}
+
+/*Footer*/
+
+footer{
+    clear: both;
+    color: white;
+    background-color: #080E2E;
+    font-weight: bold;
+    padding: 15px;
+}
+
+aside section ul{
+    padding-left: 15px;
+}
+
+/*Animacin de Trancision de paginas*/
+
